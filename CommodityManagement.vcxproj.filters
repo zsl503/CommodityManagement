@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="model">
+      <UniqueIdentifier>{f341bb48-ac64-4fce-a999-5000dbf80ff5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="view">
+      <UniqueIdentifier>{dc714703-f15f-415e-b74a-b041e5b704d6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="view\头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="view\源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="model\头文件">
+      <UniqueIdentifier>{7728e3a3-90d2-4346-b676-779954f612e7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="model\源文件">
+      <UniqueIdentifier>{b4762f58-c783-47f8-9ea6-8cd0fd6ee0a0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="view\pages">
+      <UniqueIdentifier>{bb266870-fa9e-43f4-8d1b-ccd7fab48dd2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="view\pages\头文件">
+      <UniqueIdentifier>{462209a0-4d84-4227-8abd-4d7f43a8b2c7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="view\pages\源文件">
+      <UniqueIdentifier>{3ee2f7a7-60c1-4fd2-9b80-c9c4b2777073}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>view\源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="utils.cpp">
+      <Filter>view\源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Shop.cpp">
+      <Filter>model\源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="MainPage.cpp">
+      <Filter>view\pages\源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LoginPage.cpp">
+      <Filter>view\pages\源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="DiscountPage.cpp">
+      <Filter>view\pages\源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Components.cpp">
+      <Filter>view\pages\源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="utils.h">
+      <Filter>view\头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Shop.h">
+      <Filter>model\头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="LoginPage.h">
+      <Filter>view\pages\头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="DiscountPage.h">
+      <Filter>view\pages\头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="MainPage.h">
+      <Filter>view\pages\头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Components.h">
+      <Filter>view\pages\头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ShopApp.h">
+      <Filter>view\pages\头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
